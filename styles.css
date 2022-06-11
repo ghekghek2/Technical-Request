@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300,500,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+iframe{
+    height: 100vh!important;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.hero{
+    padding: 1rem ;
+    width: 100%;
+}
+
+
+
+.hero-container .img{
+
+background: url(img.png);
+
+/* background-position: center center; */
+
+
+
+
+
+position: relative;
+
+
+position: relative;
+height: 700px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+.hero-container h1{
+margin: 0;
+}
+
+.hero-container .context h2{
+background: #233f74;
+color: aliceblue;
+padding: 1rem;
+margin: 0;
+
+}
+
+
+
+.hero-container h1{
+    font-size: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: rgb(81, 107, 156);
+    
+}
+.hero-container span{
+    font-size: 4.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: rgb(190, 65, 56);
+   
+}
+
+.hero p{
+    width: 60%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer{
+    width: 100%;
+    height: 5vh;
+    background: rgb(45, 65, 100);
+  
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+
+color: rgb(255, 255, 255);
+}
+
+footer span{
+    padding: 0 .5rem;
+}
+
+.img-container{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+}
+
+.img-container .rowell{
+    background: url(rowell.png);
+    
+    width: 2em;
+    height: 2em;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+      flex-direction: column;
+padding: 1rem;
+
+    }
+
+    .hero{
+        padding: 0;
+        width: 90%;
+    }
+
+.hero-container{
+flex-direction: column;
+}
+
+    .logo{
+        width: 90%;
+        height: 130px;
+    }
+    .context h1 {
+        margin-top:  0;
+        font-size: 3rem;
+    }
+    .context span{
+        font-size: 3rem;
+    }
+
+    .hero-container .img{
+        background: url(img.png);
+background-size: cover;
+background-repeat: no-repeat;
+/* background-position: center center; */
+width: 100%;
+height: 250px;
+
+    }
+
+    footer{
+        font-size: 16px;
+        margin: 0;
+        width: 90%;
+        height: 80px;
+        margin: .25rem .5rem;
+    }
+  }
